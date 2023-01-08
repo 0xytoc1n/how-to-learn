@@ -22,7 +22,10 @@
   padding: 0;
   background-color: #f2f2f2;
 }
-
+.logo {
+  width: 228px;
+  height: 32px;
+}
 .logo_place_header {
   position: absolute;
   z-index: 100;
@@ -40,7 +43,7 @@
   background: #2f80ed;
 }
 
-.header-image {
+.header__main-illustration {
   object-fit: cover;
   position: absolute;
   z-index: 1;
@@ -51,11 +54,13 @@
 }
 
 .header__title {
-  position: absolute;
+  display: flex;
+  align-items: center;
   z-index: 3;
-  left: 64px;
   width: 730px;
-  font-size: 120px;
+  margin: 0 0 0 64px;
+  padding: 0;
+  font-size: 102px;
   line-height: 96px;
   font-weight: 600;
 }
@@ -65,7 +70,9 @@
   z-index: 3;
   bottom: 30px;
   width: 388px;
-  margin-left: 64px;
+  left: 64px;
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -73,6 +80,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .description {
@@ -146,7 +154,7 @@
   position: relative;
   z-index: 1;
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
   line-height: 34px;
   font-size: 24px;
@@ -159,7 +167,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0;
   list-style-type: none;
 }
@@ -170,7 +178,7 @@
 }
 
 .table__heading {
-  margin: auto;
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -189,7 +197,7 @@
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  height: 890px;
+  min-height: 890px;
   margin: 100px 0 0;
   padding: 0;
   background-color: #f2f2f2;
@@ -226,9 +234,10 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
 }
 
-.feyman-image {
+.feyman__image {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -243,8 +252,8 @@
   padding: 90px 0;
   margin: 0;
   overflow: hidden;
-  background-color: black;
-  color: #f2f2f2;
+  background-color: #1f1f1f;
+  color: #fff;
 }
 
 .table_theme_dark {
@@ -278,8 +287,8 @@
   padding: 60px 0 40px;
   margin: 0;
   box-sizing: border-box;
-  background-color: black;
-  color: #f2f2f2;
+  background-color: #1f1f1f;
+  color: #fff;
 }
 
 .footer__columns {
@@ -314,8 +323,6 @@
 }
 
 .logo_place_footer {
-  width: 228px;
-  height: 32px;
   padding: 0;
   margin: 0;
 }
@@ -346,11 +353,11 @@
 }
 
 .footer__column-link {
-  color: #f2f2f2;
+  color: #fff;
   text-decoration: none;
 }
 
-.footer_social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   padding-right: 10px;
