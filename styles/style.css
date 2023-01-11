@@ -86,7 +86,7 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px auto;
+  margin: 100px 0 0 0;
   padding: 0;
 }
 
@@ -198,7 +198,7 @@
   align-items: center;
   position: relative;
   min-height: 890px;
-  margin: 100px 0 0;
+  margin: 0;
   padding: 0;
   background-color: #f2f2f2;
 }
@@ -237,7 +237,7 @@
   text-decoration: none;
 }
 
-.feyman__image {
+.feynman__image {
   position: absolute;
   left: 0;
   bottom: 0;
